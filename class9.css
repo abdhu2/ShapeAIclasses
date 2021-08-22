@@ -1,0 +1,39 @@
+.btn {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  color: cornsilk;
+}
+
+.btn:focus {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  color: darkblue;
+  /* transition-delay: 1s; */
+  transition-duration: 5s;
+}
+
+.parent {
+  width: 600px;
+  height: 600px;
+  border: 3px solid blue;
+  padding: 10px;
+}
+.child {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
+/* .child:hover {
+  background-color: darkcyan;
+  border-radius: 50%;
+  transform: translateY(200%);
+} */
+
+.child:focus {
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+  transform: translateY(100%);
+  transition: 10s;
+}

@@ -1,0 +1,29 @@
+.btn {
+  background-color: red;
+  color: white;
+}
+.btn:hover {
+  background-color: violet;
+  color: teal;
+}
+
+.btn:active {
+  background-color: teal;
+  color: yellow;
+}
+.btn:focus {
+  background-color: green;
+  color: yellow;
+}
+
+.pera::before {
+  content: "My Name is:";
+  color: tomato;
+}
+.pera::after {
+  content: " welcome bro";
+  color: aqua;
+}
+.pera::selection {
+  background-color: blue;
+}
